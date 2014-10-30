@@ -1,0 +1,74 @@
+/*RESET BLOCK*/
+body {
+  margin: 0;
+}
+
+footer, header, nav, section{
+  display: block;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  margin: 0.67em 0;
+}
+
+img {
+  border: 0;
+}
+/*END OF RESET BLOCK*/
+
+
+:root {
+  background-color: #99FFFF;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: red;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+p:first-letter {
+  font-size: 30px;
+}
+
+a {
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+nav a {
+  color: green;
+}
+
+nav a:hover{
+  color: black;
+}
+
+.about_class{
+  background-color: white;
+  font-size: 20px;
+}
+
+nav:before{
+  content: 'Menu links - ';
+  font-weight: bold;
+}
+
+nav:after{
+  content: ' - Menu links';
+  font-weight: bold;
+}
