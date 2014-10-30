@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel='stylesheet' href='simple.css'>
   <meta charset='utf-8'>
   <title>Pure html</title>
 </head>
 <body>
   <header>
     <h1>Simple Html page!</h1>
-    <a href='#about'>About</a> |
-    <a href='#faq'>FAQ</a> |
-    <a href='#contacts'>Contacts</a> |
-    <a href='#register'>Register</a> |
-    <a href='#feedback'>Feedback</a>
-    <hr>
+	<nav>
+      <a href='#about'>About</a> |
+      <a href='#faq'>FAQ</a> |
+      <a href='#contacts'>Contacts</a> |
+      <a href='#register'>Register</a> |
+	  <a href='#feedback'>Feedback</a>
+	</nav>
+	<hr>
   </header>
-  <section>
-  <h2 id='about'>About</h2>
+  <section id='about' class='about_class'>
+  <h2>About</h2>
   <p>Was justice improve age article between. No projection as up preference reasonably delightful celebrated. Preserved and abilities assurance tolerably breakfast use saw. And painted letters forming far village elderly compact. Her rest west each spot his and you knew. Estate gay wooded depart six far her. Of we be have it lose gate bred. Do separate removing or expenses in. Had covered but evident chapter matters anxious.</p>
   <img src='http://i1.huffpost.com/gen/1719761/thumbs/n-COOL-CAT-large570.jpg' alt='image'>
   <p>Post no so what deal evil rent by real in. But her ready least set lived spite solid. September how men saw tolerably two behaviour arranging. She offices for highest and replied one venture pasture. Applauded no discovery in newspaper allowance am northward. Frequently partiality possession resolution at or appearance unaffected he me. Engaged its was evident pleased husband. Ye goodness felicity do disposal dwelling no. First am plate jokes to began of cause an scale. Subjects he prospect elegance followed no overcame possible it on.</p>
@@ -27,74 +30,71 @@
   <p>Fulfilled direction use continual set him propriety continued. Saw met applauded favourite deficient engrossed concealed and her. Concluded boy perpetual old supposing. Farther related bed and passage comfort civilly. Dashwoods see frankness objection abilities the. As hastened oh produced prospect formerly up am. Placing forming nay looking old married few has. Margaret disposed add screened rendered six say his striking confined.</p>
   <p>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.</p>
   </section>
-  <section>
-  <h2 id='faq'>FAQ</h2>
+  <section id='faq'>
+  <h2>FAQ</h2>
   <ol>
     <li><b>What is this?</b><br>
         <i>This is HTML!</i></li>
-    <li><b>Answer to The Ultimate Question of Life, the Universe, and Everything?</b><br>
+	<li><b>Answer to The Ultimate Question of Life, the Universe, and Everything?</b><br>
         <i>42</i></li>
-    <li><b>How are you?</b><br>
+	<li><b>How are you?</b><br>
         <i>I'm fine ;)</i></li>
-    <li><b>Random question?</b><br>
+	<li><b>Random question?</b><br>
         <i>Random answer!</i></li>
   </ol>
   </section>
-  <section>
-  <h2 id='contacts'>Contacts</h2>
-  <p>
+  <section id='contacts'>
+  <h2>Contacts</h2>
   We are there: <span>355 Brannan Street, San Francisco, CA, 94107</span><br>
   Email: <a href='mailto:support@example.com'>support@example.com</a><br>
   Phone: <span>+38-050-555-33-22</span><br>
   Skype: <span>skype_nickname</span><br>
   Twitter: <a href='http://twitter.com'>Follow us!</a>
-  </p>
   </section>
-  <section>
-  <h2 id='register'>Register</h2>
+  <section id='register'>
+  <h2>Register</h2>
   <form action='/' method='post'>
-  <p>
     <span>Gender: </span>
-    <select>
+	<select>
       <option>Male</option>
       <option>Female</option>
       <option>Other</option>
     </select><br>
-    <label for='login'>Login name: </label><br>
+	<label for='login'>Login name: </label><br>
     <input type='text' id='login'><br>
-    <label for='email'>Email: </label><br>
+	<label for='email'>Email: </label><br>
     <input type='text' id='email'><br>
-    <label for='pass1'>Passwod: </label><br>
+	<label for='pass1'>Passwod: </label><br>
     <input type='password' id='pass1'><br>
-    <label for='pass2'>Retype passwod: </label><br>
+	<label for='pass2'>Retype passwod: </label><br>
     <input type='password' id='pass2'><br>
-    <input type='checkbox' id='notification' checked><label for='notification'> Send me service notifications!</label><br>
-    <input type="submit" value='Register'>
+	<input type='checkbox' id='notification' checked><label for='notification'> Send me service notifications!</label><br>
+	<input type="submit" value='Register'>
     <input type="reset" value='Reset fields'>
-  </p>
   </form>
   </section>
-  <section>
-  <h2 id='feedback'>Feedback</h2>
+  <section id='feedback'>
+  <h2>Feedback</h2>
   <form action='/' method='post'>
     <label for='name'>Your name: </label><br>
     <input type='text' id='name'><br>
     <label for='feed'>Write your feedback here:</label><br>
     <textarea id='feed' rows='5' cols='20'></textarea><br>
-    <input type="submit" value='Send'>
+	<input type="submit" value='Send'>
   </form>
   </section>
   <footer>
     <hr>
-    <a href='#about'>About</a> |
-    <a href='#faq'>FAQ</a> |
-    <a href='#contacts'>Contacts</a> |
-    <a href='#register'>Register</a> |
-    <a href='#feedback'>Feedback</a>
-    <p>
-    <a href='/'>Terms of service</a> | <a href='/'>Privacy policy</a><br>
+	<nav>
+      <a href='#about'>About</a> |
+      <a href='#faq'>FAQ</a> |
+      <a href='#contacts'>Contacts</a> |
+      <a href='#register'>Register</a> |
+	  <a href='#feedback'>Feedback</a>
+	</nav>
+	<br>
+	<a href='/'>Terms of service</a> | <a href='/'>Privacy policy</a><br>
     <span>&copy; 2014 Project html, Inc.</span>
-    </p>
   </footer>
 </body>
 </html>
