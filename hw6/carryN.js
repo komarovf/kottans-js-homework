@@ -1,7 +1,7 @@
 'use strict';
 function curryN(fn, n) {
-    if (typeof n === 'undefined') n = fn.length;
-    if (n <= 1) {
+    if (typeof n === 'undefined') n = fn.length - 1;
+    if (n === 0) {
         return fn;
     }
     else {
