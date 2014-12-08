@@ -4,7 +4,7 @@ kottans-js-homework
 Ok, let's doing some homework!
 
 
-jQuery practice (MATCH KILLAR!):
+jQuery practice - MATCH KILLAR! (closes issue #9):
 
 preview: http://komarovf.github.io/matchkillar/
 
