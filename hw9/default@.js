@@ -1,0 +1,1 @@
+module.exports = (s, imp=s.length) => s+("!".repeat(imp));
